@@ -1,11 +1,15 @@
 package MyPackage;
 
+import java.util.*;
+
 public class Film {
     private int codeFilm;
 
     private String regisseur;
 
-    private CategoryFilm name;
+    private String name;
 
-    private int category;
+    private CategoryFilm category;
+
+    List<RollingMedia> rollingMedias = new ArrayList<>();
 }

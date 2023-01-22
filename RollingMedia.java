@@ -1,5 +1,7 @@
 package MyPackage;
 
+import java.util.*;
+
 public class RollingMedia {
     private int codeMedia;
 
@@ -9,4 +11,5 @@ public class RollingMedia {
 
     private TypeMedia typeMedia;
 
+    List<Rent> rents = new ArrayList<>();
 }
